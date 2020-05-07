@@ -1,0 +1,10 @@
+import tkinter
+root = tkinter.Tk()
+#root.geometry('200*200+240+240')
+label = tkinter.Label(root,text = 'Hello，Python')
+label.pack()
+button1 = tkinter.Button(root,text = '按钮1')
+button2 = tkinter.Button(root,text = '按钮2')
+button1.pack(side = tkinter.LEFT)
+button2.pack(side = tkinter.RIGHT)
+root.mainloop()
